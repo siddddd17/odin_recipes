@@ -3,9 +3,9 @@
 }
 *,
 *::before,
-*::after,
+*::after
 {
-    box-sizing: inherit;
+    box-sizing:inherit;
 }
 *{
     font-family:"Times New Roman", Arial, Helvetica, sans-serif;
@@ -38,8 +38,6 @@
 .recipe-list li{
     margin:5px;
     padding:10px;
-    
-
 }
 .recipe-list a{
     text-decoration:none;
