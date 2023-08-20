@@ -1,19 +1,52 @@
+.html{
+    box-sizing:border-box
+}
+*,
+*::before,
+*::after,
+{
+    box-sizing: inherit;
+}
 *{
-    font-family: Arial, "Times New Roman", sans-serif;
+    font-family:"Times New Roman", Arial, Helvetica, sans-serif;
 }
-body{
-    background-color:lightgoldenrodyellow;
+.home-heading{
+    height:100px;
 }
-.homepage-heading{
+.home-heading h1{
+    font-style:bold;
+    font-size:50px;
     text-align:center;
-    color:darkgoldenrod;
-    font-weight:bold;
-    font-size:70px;
+    padding: 10px 0px;
 }
-.homepage-image{
-    width:100%;
+
+.home-odin{
+    display:block;
+    width:90%;
     height:auto;
+    margin:auto;
 }
-.homepage-list{
-    text-decoration: None;
+.recipe-list{
+    padding:20px;
+    margin:20px;
+}
+.recipe-list ul{
+    margin:auto;
+    color:black;
+    display:inline-block;
+}
+.recipe-list li{
+    margin:5px;
+    padding:10px;
+    
+
+}
+.recipe-list a{
+    text-decoration:none;
+    color:black;
+}
+.recipe-list ul li:hover{
+    font-weight: bold;
+    background-color:rgb(189, 189, 189);
+    cursor:pointer;
 }
